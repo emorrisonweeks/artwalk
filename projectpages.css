@@ -1,0 +1,211 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h2{
+    text-align: center;
+    
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+}
+
+p{
+    max-width:1140px;
+    margin: auto;
+    padding: 20px;
+}
+
+img{
+    display:block;
+    margin: auto;
+    padding:5px;
+    max-width: 1140px;
+}
+
+body{
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #bdeaf4;
+}
+
+ol{
+    max-width: 1140px;
+    margin:auto;
+    padding: 20px;
+}
+
+.menus{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/*project page-specific css*/
+.projectpage{
+    display: flex;
+    justify-content: center;
+}
+
+img{width: 85%;
+}
+
+@media screen and (max-width: 1440px) {
+/*iframe responsiveness for 16:9 Youtube and Figma aspect ratios*/
+.iframecontainer {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; 
+  }
+  
+  /* styling the iframe to fit in the container div with full height and width */
+  .responsiveiframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+
+  }
+}
+
+/*responsive navigation*/
+.emwlogo{
+    max-width: 200px;
+}
+
+.head{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}   
+
+.fa-solid.fa-burger{
+    font-size:25px;
+    padding-bottom: 2px;
+}
+
+.topnav{
+    overflow: hidden; 
+    padding-bottom: 40px;      
+}
+
+.topnav a{
+    color:#141414;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-right: 30px;
+}
+
+.topnav a.active{
+   color:#e1368b;
+    
+}
+
+.topnav a:hover{
+    color: #a7ae22;
+}
+
+.topnav .icon{
+    display: none;
+}
+
+.topnavresponsive{
+    background-color: #fcce84;
+    position: relative;
+}
+.topnavresponsive a{
+    color:#33939a;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.topnavresponsive a:hover{
+    color: #d64b21;
+}
+
+.topnavresponsive a.active{
+    color:#e5706a;
+}
+
+@media screen and (max-width: 768px) {
+    .topnav a{
+        display: none;
+    }
+    .topnav a.icon{
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: #33939a;
+    }
+    .topnav.responsive a{
+        float:none;
+        display: block;
+        text-align: left;
+        color:#33939a;
+    }
+}
+
+/*to top arrow*/
+#to-top{
+    position:fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    font-size: 30px;
+    color:#33939a;
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: bottom 200ms, transform 200ms;
+}
+
+#to-top:hover{
+    bottom: 35px;
+}
+
+#to-top.show{
+    transform: scale(1);
+}
+
+
+
+/*ArtWalk*/
+.artwalkcontainer{
+    margin: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 25px;
+    background-color: #bdeaf4;
+}
+
+.artwalkbold, .artwalkh2{
+    color:#ce4689;
+}
+
+.artwalklogo{width: 25%;
+}
+
