@@ -78,7 +78,7 @@ body{
 }
 
 .topnav a{
-    color:#33939a;
+    color:#141414;
     font-family: "poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -86,12 +86,12 @@ body{
 }
 
 .topnav a.active{
-   color:#c3807c;
+   color:#e1368b;
     
 }
 
 .topnav a:hover{
-    color: #d64b21;
+    color: #a7ae22;
 }
 
 .topnav .icon{

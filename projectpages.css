@@ -121,22 +121,22 @@ img{width: 85%;
 }
 
 .topnavresponsive{
-    background-color: #fcce84;
+    background-color: #ffffff;
     position: relative;
 }
 .topnavresponsive a{
-    color:#33939a;
+    color:#141414;
     padding: 14px 16px;
     text-decoration: none;
     display: block;
 }
 
 .topnavresponsive a:hover{
-    color: #d64b21;
+    color: #a7ae22;
 }
 
 .topnavresponsive a.active{
-    color:#e5706a;
+    color:#E1368B;
 }
 
 @media screen and (max-width: 768px) {
