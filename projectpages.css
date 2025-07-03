@@ -4,6 +4,7 @@ html {
 
 h2{
     text-align: center;
+    font-style: bold;
     
 }
 
@@ -202,8 +203,14 @@ img{width: 85%;
     background-color: #bdeaf4;
 }
 
-.artwalkbold, .artwalkh2{
+.artwalkbold{
     color:#ce4689;
+}
+
+.artwalkh2{
+    color:#ce4689;
+    font-style: bold;
+    
 }
 
 .artwalklogo{width: 25%;
