@@ -209,7 +209,10 @@ img{width: 85%;
 
 .artwalkh2{
     color:#ce4689;
-    font-style: bold;
+  font-family: "Potta One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size:36pt;
     
 }
 
