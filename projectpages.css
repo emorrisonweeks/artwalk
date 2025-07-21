@@ -168,6 +168,12 @@ img{width: 85%;
     }
 }
 
+/*Vertical Phone Photo Sizing*/
+.phonepics {
+    max-height: 1000px;
+    width: auto;
+}
+
 /*Slideshow Attempt*/
 * {box-sizing:border-box}
 
