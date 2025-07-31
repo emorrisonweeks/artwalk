@@ -42,7 +42,7 @@ body{
 
 /* Hero image */
 .hero-image {
-  background-image: url("../images/hero.png");
+  background-image: url("images/hero.png");
 
   /* hero image height */
   height: 50%;
