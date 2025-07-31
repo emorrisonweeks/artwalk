@@ -34,14 +34,14 @@ body{
     height:100%;
 }
 
-/* The hero image */
+/* Hero image */
 .hero-image {
   background-image: url("images/hero.png");
 
-  /* Set a specific height */
+  /* hero image height */
   height: 50%;
 
-  /* Position and center the image to scale nicely on all screens */
+  /* Position and center the hero image so it will scale on various screen sizes */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
