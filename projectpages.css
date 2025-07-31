@@ -2,6 +2,12 @@ html {
     scroll-behavior: smooth;
 }
 
+h3{
+    text-align: center;
+    margin: auto;  
+}
+
+
 h2{
     text-align: center;
     font-style: bold;
@@ -322,11 +328,12 @@ img{width: 85%;
     background-color: #bdeaf4;
 }
 
-.artwalkbold{
+.artwalkh3{
     color:#ce4689;
     font-family: "Potta One", system-ui;
   font-weight: 400;
   font-style: normal;
+  font-size: 16pt;
 }
 
 .artwalkh2{
@@ -334,7 +341,16 @@ img{width: 85%;
   font-family: "Potta One", system-ui;
   font-weight: 400;
   font-style: normal;
-  /*font-size:36pt;*/
+  font-size:24pt;
+    
+}
+
+.artwalkh1{
+    color:#ce4689;
+  font-family: "Potta One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size:36pt;
     
 }
 
